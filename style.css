@@ -5,19 +5,16 @@ body{
 
 }
 a{
-	color: #284B63;
-	background-color: lightgray
+	color: white;
 }
-.big {color: black}
-.small {color: white}
 #species {background-color: white;color: black;font-size: 40px; text-align: center;}
 .pic {
 	max-height: 200px; 
 	max-width: 200px;
 }
-.sidebar {background-color: #B5FED9; height: 100%; left: 0px; position: absolute;top: 0px;}
+.sidebar {background-color: #B5FED9; height: 100%; left: 10px; position: fixed ;top: 20px;width: 160px; padding: 5px ;}
 .title {height: 60px; width: 100%;text-align: center;}
-.container {position: relative;height: 100px;}
-.content {position: absolute; top: 0px; left: 100px;}
+.container {position: absolute;height: 100px;}
+.content {position: absolute; top: 0px; left: 180px}
 .left {left: 0px}
 .right{right: 0px}
